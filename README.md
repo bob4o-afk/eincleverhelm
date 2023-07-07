@@ -41,6 +41,6 @@ GND  -> GND
 **! Note: If you want to adjust the duration of the recording, you can modify the ```wait_secs``` function in the code.  !** 
 
 ## Example wiring diagram
-![Diagram](https://europe1.discourse-cdn.com/arduino/original/4X/0/d/d/0ddf9122cba54816ca61dab4547d06b6fd0f8803.png)
+![diagram](https://github.com/bob4o-afk/eincleverhelm/assets/80552018/a20eea47-4ab9-44d7-ab60-3825ee90d02f)
 
 For more information on the TMRpcm library and its functionalities, refer to the official [documentation](https://www.arduino.cc/reference/en/libraries/tmrpcm/).

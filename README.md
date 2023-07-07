@@ -8,9 +8,9 @@ GitHub Repository Description:
 This GitHub repository contains code for recording audio using an Arduino UNO and a KY-038 microphone module. The code enables users to record audio and save it as a WAV file on an SD card.
 
 ## Needed parts
-* [Arduino UNO] (https://store.arduino.cc/products/arduino-uno-rev3)
-* [Adafruit Data Logger Shield] (https://learn.adafruit.com/adafruit-data-logger-shield)
-* [KY-038 sound sensor] (https://sensorkit.joy-it.net/de/sensors/ky-038)
+* [Arduino UNO](https://store.arduino.cc/products/arduino-uno-rev3)
+* [Adafruit Data Logger Shield](https://learn.adafruit.com/adafruit-data-logger-shield)
+* [KY-038 sound sensor](https://sensorkit.joy-it.net/de/sensors/ky-038)
 * Jumpers
 * 5V power supply
   

@@ -5,27 +5,25 @@ If you have problems connact me or go here: https://github.com/TMRh20/TMRpcm
 ## DESCRIPTION
 GitHub Repository Description:
 
-This GitHub repository contains code for recording audio using an Arduino Nano and a MAX9814 microphone module. The code enables users to record audio and save it as a WAV file on an SD card.
+This GitHub repository contains code for recording audio using an Arduino UNO and a KY-038 microphone module. The code enables users to record audio and save it as a WAV file on an SD card.
 
+## Needed parts
+* [Arduino UNO] (https://store.arduino.cc/products/arduino-uno-rev3)
+* [Adafruit Data Logger Shield] (https://learn.adafruit.com/adafruit-data-logger-shield)
+* [KY-038 sound sensor] (https://sensorkit.joy-it.net/de/sensors/ky-038)
+* Jumpers
+* 5V power supply
+  
 ## Hardware Connection:
+You put the shield onto the Arduino Uno like this:
+![Arduino Shield](https://cdn-learn.adafruit.com/assets/assets/000/058/608/original/adafruit_products_1141-05.jpg?1533313257)
 
-Arduino Nano is connected to the SD card module with the following pinout:
+After that you connect the sound sensor as following:
 ```
-5V --> VCC
-GND --> GND
-D10 --> CS
-D11 --> MOSI
-D12 --> MISO
-D13 --> SCK
+S   -> Analog0
++   -> 5V
+-   -> GND
 ```
-
-Arduino Nano is connected to the MAX9814 microphone module with the following pinout:
-```
-3.3V --> VDD
-GND --> GND
-A0 --> Out
-```
-Arduino Nano pin D2 is used to connect an LED, which notifies the user that the recording is in process.
 
 ## Setup Instructions:
 * Connect the Arduino Nano to the SD card module and the MAX9814 microphone module according to the hardware pinout mentioned above.

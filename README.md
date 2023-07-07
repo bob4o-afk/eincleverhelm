@@ -43,6 +43,6 @@ Arduino Nano pin D2 is used to connect an LED, which notifies the user that the 
 **! Note: If you want to adjust the duration of the recording, you can modify the ```wait_secs``` function in the code.  !** 
 
 ## Example wiring diagram
-![Diagram]([https://forum.arduino.cc/t/solved-problem-with-reading-out-adafruit-max9814/626118](https://europe1.discourse-cdn.com/arduino/original/4X/0/d/d/0ddf9122cba54816ca61dab4547d06b6fd0f8803.png))
+![Diagram](https://europe1.discourse-cdn.com/arduino/original/4X/0/d/d/0ddf9122cba54816ca61dab4547d06b6fd0f8803.png)
 
 For more information on the TMRpcm library and its functionalities, refer to the official [documentation](https://www.arduino.cc/reference/en/libraries/tmrpcm/).

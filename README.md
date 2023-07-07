@@ -9,7 +9,7 @@ This GitHub repository contains code for recording audio using an Arduino Nano a
 
 ## Hardware Connection:
 
-### Arduino Nano is connected to the SD card module with the following pinout:
+Arduino Nano is connected to the SD card module with the following pinout:
 ```
 5V --> VCC
 GND --> GND
@@ -19,13 +19,13 @@ D12 --> MISO
 D13 --> SCK
 ```
 
-### Arduino Nano is connected to the MAX9814 microphone module with the following pinout:
+Arduino Nano is connected to the MAX9814 microphone module with the following pinout:
 ```
 3.3V --> VDD
 GND --> GND
 A0 --> Out
 ```
-### Arduino Nano pin D2 is used to connect an LED, which notifies the user that the recording is in process.
+Arduino Nano pin D2 is used to connect an LED, which notifies the user that the recording is in process.
 
 ## Setup Instructions:
 * Connect the Arduino Nano to the SD card module and the MAX9814 microphone module according to the hardware pinout mentioned above.

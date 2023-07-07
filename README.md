@@ -40,6 +40,6 @@ Arduino Nano pin D2 is used to connect an LED, which notifies the user that the 
 * Each recorded file will be named with a prefix ("record") followed by a number and the extension ".wav".
 * The file number is stored in the EEPROM memory of the Arduino Nano, so the numbering continues from the last recorded file on subsequent runs.
   
-**! Note: If you want to adjust the duration of the recording, you can modify the wait_secs function in the code.  !** 
+**! Note: If you want to adjust the duration of the recording, you can modify the ```wait_secs``` function in the code.  !** 
 
 For more information on the TMRpcm library and its functionalities, refer to the official [documentation](https://www.arduino.cc/reference/en/libraries/tmrpcm/).

@@ -10,7 +10,7 @@ This GitHub repository contains code for recording audio using an Arduino UNO an
 ## Needed parts
 * [Arduino UNO](https://store.arduino.cc/products/arduino-uno-rev3)
 * [Adafruit Data Logger Shield](https://learn.adafruit.com/adafruit-data-logger-shield)
-* [KY-038 sound sensor](https://sensorkit.joy-it.net/de/sensors/ky-038)
+* [Microphone sound sensor module](https://advanced.mu/sensors-modules/105-microphone-sound-sensor-module.html)
 * Jumpers
 * 5V power supply
   
@@ -20,9 +20,9 @@ You put the shield onto the Arduino Uno like this:
 
 After that you connect the sound sensor as following:
 ```
-S   -> Analog0
-+   -> 5V
--   -> GND
+OUT  -> Analog0
+VCC  -> 5V
+GND  -> GND
 ```
 
 ## Setup Instructions:

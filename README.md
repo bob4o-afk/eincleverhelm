@@ -14,7 +14,7 @@ This GitHub repository contains code for recording audio using an Arduino UNO an
 * Jumpers
 * 5V power supply
   
-## Hardware Connection:
+## Hardware Connection
 You put the shield onto the Arduino Uno like this:
 ![Arduino Shield](https://cdn-learn.adafruit.com/assets/assets/000/058/608/original/adafruit_products_1141-05.jpg?1533313257)
 
@@ -25,7 +25,7 @@ VCC  -> 5V
 GND  -> GND
 ```
 
-## Setup Instructions:
+## Setup Instructions
 * Connect the Arduino Nano to the SD card module and the MAX9814 microphone module according to the hardware pinout mentioned above.
 * Install the required libraries: [TMRpcm](https://www.arduino.cc/reference/en/libraries/tmrpcm/), [SD](https://github.com/arduino-libraries/SD), [SPI](https://github.com/PaulStoffregen/SPI), and [EEPROM](https://github.com/PaulStoffregen/EEPROM).
 * Modify the TMRpcm library configuration file "pcmConfig.h" as follows:

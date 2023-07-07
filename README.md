@@ -29,7 +29,7 @@ Arduino Nano pin D2 is used to connect an LED, which notifies the user that the 
 
 ## Setup Instructions:
 * Connect the Arduino Nano to the SD card module and the MAX9814 microphone module according to the hardware pinout mentioned above.
-* Install the required libraries: TMRpcm, SD, SPI, and EEPROM.
+* Install the required libraries: [TMRpcm](https://www.arduino.cc/reference/en/libraries/tmrpcm/), [SD](https://github.com/arduino-libraries/SD), [SPI](https://github.com/PaulStoffregen/SPI), and [EEPROM](https://github.com/PaulStoffregen/EEPROM).
 * Modify the TMRpcm library configuration file "pcmConfig.h" as follows:
 * Uncomment the line "#define buffSize 128" if using Uno or non-mega boards.
 * Uncomment the lines "#define ENABLE_RECORDING" and "#define BLOCK_COUNT 10000UL".

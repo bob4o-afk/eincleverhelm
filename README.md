@@ -25,7 +25,7 @@ D13 --> SCK
 GND --> GND
 A0 --> Out
 ```
-Arduino Nano pin D2 is used to connect an LED, which notifies the user that the recording is in process.
+### Arduino Nano pin D2 is used to connect an LED, which notifies the user that the recording is in process.
 
 ## Setup Instructions:
 * Connect the Arduino Nano to the SD card module and the MAX9814 microphone module according to the hardware pinout mentioned above.

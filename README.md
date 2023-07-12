@@ -3,8 +3,6 @@ This is a project by @bob4o-afk and it is connected with future projects.
 If you have problems connact me or go here: https://github.com/TMRh20/TMRpcm
 
 ## DESCRIPTION
-GitHub Repository Description:
-
 This GitHub repository contains code for recording audio using an Arduino UNO and a KY-038 microphone module. The code enables users to record audio and save it as a WAV file on an SD card.
 
 ## Needed parts
